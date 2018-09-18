@@ -1,6 +1,5 @@
 {
     "version": "0.2.0",
-    "debugServer": 4711,
     "configurations": [
         {
             "name": "Launch",
@@ -26,7 +25,7 @@
             "args": [],
             "remotePath": "/go/src/app",
             "port": 2345, // Port 
-            "host": "192.168.99.100" // Docker IP 
+            "host": "localhost" // Docker IP 
         }
     ]
 }
